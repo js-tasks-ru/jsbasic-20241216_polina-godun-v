@@ -1,6 +1,5 @@
 function getMinMax(str) {
   let strings = str.split(' ');
-
   let nums = strings
     .filter((value) => isFinite(value)) // Отфильтровывает не числовые значения
     .map((value) => +value) // Преобразовывает элементы к числовому типу ("-38" => -38)
