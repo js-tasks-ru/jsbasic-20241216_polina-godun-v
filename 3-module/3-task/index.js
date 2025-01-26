@@ -13,4 +13,4 @@ function camelize(str) {
       return `${firstLetter.toUpperCase()}${rest}`;
     })
     .join('');
-  }
+};
